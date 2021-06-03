@@ -1,0 +1,62 @@
+body, html{
+    margin:0;
+    padding: 0;
+    border: 0;
+    background-color:  hsl(0, 0%, 95%);
+    height: 100%;
+    width:100%;
+    font-size: 15px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;;
+    justify-content: center;
+}
+.images{
+    margin: 10px auto 10px 20px;
+}
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    width:20%;
+}
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    width:20%;
+}
+.luxury{
+    background-color:hsl(179, 100%, 13%);
+    width:20%;
+}
+h1{
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: white;
+    margin: 10px auto 10px 20px;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    margin: 10px auto 10px 20px;
+    height: 50px;
+}
+button{
+    display: block;
+    margin: 60px auto 10px auto;
+    background-color: white;
+    border-radius: 5px;
+    width: 100px;
+    border: 0;
+    font-family: 'Big Shoulders Display', cursive;
+    padding: 5px
+}
+.sedansButton{
+    color: hsl(31, 77%, 52%);
+}
+.suvsButton{
+    color: hsl(184, 100%, 22%);
+}
+.luxurysButton{
+    color: hsl(179, 100%, 13%);
+}
